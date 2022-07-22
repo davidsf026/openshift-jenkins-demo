@@ -147,8 +147,6 @@ This demo by default uses the WildFly community image. You can use the JBoss EAP
 
 * Commit and push the fix to the git repository and verify a pipeline instance is created in Jenkins and executes successfully.
 
-![](images/openshift-pipeline.png?raw=true)
-
 ## Using Eclipse Che for Editing Code
 
 You can install Eclipse Che on OpenShift 4 using the OperatorHub. Follow the [Installing Che on OpenShift 4 from OperatorHub](https://www.eclipse.org/che/docs/che-7/installing-che-on-openshift-4-from-operatorhub/) docs in order to install Eclipse Che 7. Alternatively, if you OpenShift cluster is accessible over the internet, you can use the hosted Eclipse Che service at https://che.openshift.io .
