@@ -126,8 +126,6 @@ This demo by default uses the WildFly community image. You can use the JBoss EAP
 
 * If you have enabled Quay, after image build completes go to quay.io and show that a image repository is created and contains the helloworld app image
 
-![](images/quay-pushed.png?raw=true)
-
 * Pipelines pauses at _Deploy STAGE_ for approval in order to promote the build to the STAGE environment. Click on this step on the pipeline and then _Promote_.
 
 * After pipeline completion, demonstrate the following:
@@ -136,10 +134,6 @@ This demo by default uses the WildFly community image. You can use the JBoss EAP
   * Explore _helloworld - Dev_ project in OpenShift console and verify the application is deployed in the DEV environment
   * Explore _helloworld - Stage_ project in OpenShift console and verify the application is deployed in the STAGE environment  
   * If Quay enabled, click on the image tag in quay.io and show the security scannig results 
-
-![](images/sonarqube-analysis.png?raw=true)
-
-![](images/quay-claire.png?raw=true)
 
 * Clone and checkout the _eap-7_ branch of the _openshift-helloworld_ git repository and using an IDE (e.g. JBoss Developer Studio), remove the ```@Ignore``` annotation from ```src/test/java/org/jboss/as/quickstarts/helloworld/service/UserResourceTest.java``` test methods to enable the unit tests. Commit and push to the git repo.
 
